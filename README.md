@@ -12,10 +12,10 @@ The Cool Tools for School website provides a clean and responsive template desig
 
 ## Website
 Visit the live website hosted on GitHub Pages:  
-👉 [https://augustemichael.github.io/cool-tools-for-school/](https://augustemichael.github.io/cool-tools-for-school/)
+ [https://augustemichael.github.io/cool-tools-for-school/](https://augustemichael.github.io/cool-tools-for-school/)
 
 ## Class
 **Michael Auguste**  
-Student Project for Lesson 2: Website Assignment  
-October 2025
-CIST1510: Web Development I 33235
+-Student Project for Lesson 2: Website Assignment  
+-October 2025
+-CIST1510: Web Development I 33235
