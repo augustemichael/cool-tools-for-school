@@ -5,52 +5,79 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="title" content="Cool Tools for School">
   <meta name="description" content="Simple study tools, quick guides, and templates for students.">
-  <meta name="keywords" content="study tools, time management, school, templates, guides">
+  <meta name="keywords" content="study tools, school tools, productivity, templates, guides">
   <meta name="author" content="Michael Auguste">
   <title>Cool Tools for School</title>
   <link rel="stylesheet" href="styles.css">
 </head>
 
 <body id="top">
-  <header class="site-header">
-    <h1><a href="https://cooltoolsforschool.com">Cool Tools for School</a></h1>
-    <nav aria-label="On page">
-      <a href="#intro">Intro</a>
+  <header>
+    <h1>Cool Tools for School</h1>
+    <nav aria-label="Site navigation">
+      <a href="#overview">Overview</a>
       <a href="#tools">Tools</a>
-      <a href="#video">Video</a>
-      <a href="#form">Contact</a>
-      <a href="#faq">FAQ</a>
+      <a href="#website">Website</a>
+      <a href="#class">Class Info</a>
+      <a href="#contact">Contact</a>
     </nav>
   </header>
 
   <main>
-    <section id="intro" class="wrap">
-      <h2>Welcome</h2>
-      <p>Welcome to <strong>Cool Tools for School</strong>, a hub for digital resources, study aids, and quick tutorials to help students stay organized and productive.</p>
-      <p>Visit helpful resources:
-        <a href="https://developer.mozilla.org/" target="_blank" rel="noopener">MDN Web Docs</a>,
-        <a href="https://www.w3.org/" target="_blank" rel="noopener">W3C</a>
-      </p>
-      <figure class="img-row">
-        <img src="images/logo.png" alt="Cool Tools for School logo PNG" width="160" height="160">
-        <img src="images/screenshot.jpg" alt="App screenshot JPG" width="160" height="160">
-        <img src="images/tip.gif" alt="Animated tip GIF" width="160" height="160">
-      </figure>
+    <section id="overview" class="wrap">
+      <h2>Project Overview</h2>
+      <p>This project is a simple HTML5 and CSS website created for Lesson 2 – Building a Webpage Template. It demonstrates how to structure a webpage using semantic HTML elements and apply basic CSS for layout and design. The goal of <strong>Cool Tools for School</strong> is to offer students a clean and organized place to access study tools, guides, and productivity resources.</p>
+    </section>
+
+    <section id="tools" class="wrap">
+      <h2>Built With GitHub</h2>
+      <ul>
+        <li>HTML5 for structure</li>
+        <li>CSS3 for styling</li>
+        <li>JavaScript (inline) for the dynamic copyright year</li>
+      </ul>
+    </section>
+
+    <section id="website" class="wrap">
+      <h2>Website</h2>
+      <p>Visit the live website hosted on GitHub Pages:</p>
+      <p><a href="https://augustemichael.github.io/cool-tools-for-school/" target="_blank">https://augustemichael.github.io/cool-tools-for-school/</a></p>
+    </section>
+
+    <section id="class" class="wrap">
+      <h2>Class Information</h2>
+      <p><strong>Michael Auguste</strong><br>
+      Student Project for Lesson 2: Website Assignment<br>
+      October 2025<br>
+      CIST1510: Web Development I 33235</p>
+    </section>
+
+    <section id="contact" class="wrap">
+      <h2>Contact</h2>
+      <form>
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" required>
+
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required>
+
+        <label for="message">Message:</label>
+        <textarea id="message" name="message" rows="4" placeholder="Your message..."></textarea>
+
+        <button type="submit">Submit</button>
+      </form>
     </section>
   </main>
 
-  <footer class="site-footer">
-    <nav aria-label="Site">
-      <a href="index.html">Home</a>
-      <a href="sitemap.html">Site Map</a>
-      <a href="#top">Top</a>
+  <footer>
+    <nav>
+      <a href="#top">Back to Top</a>
     </nav>
-    <p>&copy; <span id="year"></span> <a href="https://cooltoolsforschool.com">Cool Tools for School</a></p>
+    <p>&copy; <span id="year"></span> Cool Tools for School | Designed by Michael Auguste</p>
   </footer>
 
   <script>
-    document.getElementById('year').textContent = new Date().getFullYear();
+    document.getElementById("year").textContent = new Date().getFullYear();
   </script>
 </body>
 </html>
-
