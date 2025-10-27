@@ -1,24 +1,23 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-</head>
+# Cool Tools for School
 
-<body style="font-family: 'Times New Roman', Times, serif; background-color: white; color: black; margin: 20px;">
-  <h1>Cool Tools for School Site Map</h1>
+This project was created for Lesson 2: Building a Webpage Template.  
+It uses basic HTML to structure a simple website and includes a link to a sitemap page.
 
-  <p>This page shows the basic structure of the Cool Tools for School website.</p>
+## Project Overview
+The Cool Tools for School website provides an example of how to organize study tools and resources using HTML.  
+It shows how to use headings, paragraphs, lists, and links to build a simple webpage layout.
 
-  <ul>
-    <li><a href="index.html">Home Page</a></li>
-    <li><a href="sitemap.html">Site Map</a></li>
-  </ul>
+## Built With
+- HTML5 for structure  
+- Basic inline CSS for appearance  
+- A small JavaScript script to show the current year  
 
-  <p>Created by Michael Auguste<br>
-  October 2025</p>
+## Website
+Live link:  
+[https://augustemichael.github.io/cool-tools-for-school/](https://augustemichael.github.io/cool-tools-for-school/)
 
-  <hr>
-  <p><a href="index.html">Back to Home</a></p>
-</body>
-</html>
+## Class Information
+Michael Auguste  
+Lesson 2: Website Assignment  
+October 2025  
+CIST1510: Web Development I 33235
