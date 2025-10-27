@@ -12,9 +12,7 @@ The **Cool Tools for School** website provides a clean and responsive template d
 
 ## 🚀 How to View
 Visit the live website hosted on GitHub Pages:  
-👉 [https://augustemichael.github.io/cool-tools-for-school/](https://yourusername.github.io/cool-tools-for-school/)  
-
-*augustemichael*
+👉 [https://augustemichael.github.io/cool-tools-for-school/](https://augustemichael.github.io/cool-tools-for-school/)
 
 ## 📚 Author
 **Michael Auguste**  
