@@ -4,54 +4,37 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Cool Tools for School</title>
-  <link rel="stylesheet" href="styles.css">
 </head>
 
-<body>
-  <header>
-    <h1>Cool Tools for School</h1>
-    <nav>
-      <a href="#overview">Overview</a>
-      <a href="#tools">Built With</a>
-      <a href="#website">Website</a>
-      <a href="#class">Class Info</a>
-    </nav>
-  </header>
+<body style="font-family: 'Times New Roman', Times, serif; background-color: white; color: black; margin: 20px;">
+  <h1>Cool Tools for School</h1>
 
-  <main>
-    <section id="overview">
-      <h2>Project Overview</h2>
-      <p>This project is a simple HTML and CSS website created for Lesson 2: Building a Webpage Template. It shows how to use HTML to structure a webpage and CSS to add basic style and layout. The goal is to help students create and organize online resources for school.</p>
-    </section>
+  <p>This project is a simple HTML website created for Lesson 2: Building a Webpage Template. It shows how to use HTML to structure a webpage. The goal is to help students organize online study resources and simple tools for school.</p>
 
-    <section id="tools">
-      <h2>Built With</h2>
-      <p>This website uses the following:</p>
-      <ul>
-        <li>HTML5 for structure</li>
-        <li>CSS3 for styling</li>
-        <li>JavaScript for a simple year update</li>
-      </ul>
-    </section>
+  <h2>Project Overview</h2>
+  <p>The Cool Tools for School website gives students a basic layout for listing tools, links, or study materials. It uses basic HTML elements such as headings, paragraphs, and lists to organize content.</p>
 
-    <section id="website">
-      <h2>Website</h2>
-      <p>Visit the live site here:</p>
-      <p><a href="https://augustemichael.github.io/cool-tools-for-school/" target="_blank">https://augustemichael.github.io/cool-tools-for-school/</a></p>
-    </section>
+  <h2>Built With</h2>
+  <ul>
+    <li>HTML5 for structure</li>
+    <li>CSS (optional, not used in this version)</li>
+    <li>Simple JavaScript to display the current year</li>
+  </ul>
 
-    <section id="class">
-      <h2>Class Information</h2>
-      <p>Michael Auguste<br>
-      Student Project for Lesson 2: Website Assignment<br>
-      October 2025<br>
-      CIST1510: Web Development I 33235</p>
-    </section>
-  </main>
+  <h2>Website</h2>
+  <p>Visit the live site here:<br>
+  <a href="https://augustemichael.github.io/cool-tools-for-school/" target="_blank">https://augustemichael.github.io/cool-tools-for-school/</a></p>
 
-  <footer>
-    <p>&copy; <span id="year"></span> Cool Tools for School</p>
-  </footer>
+  <h2>Class Information</h2>
+  <p>Michael Auguste<br>
+  Student Project for Lesson 2: Website Assignment<br>
+  October 2025<br>
+  CIST1510: Web Development I 33235</p>
+
+  <p><a href="sitemap.html">Go to Site Map</a></p>
+
+  <hr>
+  <p>&copy; <span id="year"></span> Cool Tools for School</p>
 
   <script>
     document.getElementById("year").textContent = new Date().getFullYear();
