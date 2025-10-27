@@ -5,7 +5,7 @@ This project is a simple HTML5 and CSS website created for Lesson 2 – Building
 ## Project Overview
 The Cool Tools for School website provides a clean and responsive template designed to help students access study tools, guides, and productivity resources. It includes a navigation menu, welcome section, sample images, and a footer with a dynamic year script.
 
-## Built With
+## Built With Github
 - **HTML5** for structure  
 - **CSS3** for styling  
 - **JavaScript** (inline) for the dynamic copyright year  
