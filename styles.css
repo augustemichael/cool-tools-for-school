@@ -7,14 +7,9 @@ body {
 
 header,
 footer {
-  background: #cce5ff; /* lighter blue header/footer */
+  background: #fff;
   padding: 1rem;
-  border-bottom: 1px solid #99ccff;
-}
-
-footer {
-  border-top: 1px solid #99ccff;
-  border-bottom: none;
+  border: none;
 }
 
 h1, h2, h3, h4, h5, h6 {
