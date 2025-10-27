@@ -1,1 +1,55 @@
+body {
+  font-family: Arial, sans-serif;
+  background: #fafafa;
+  margin: 0;
+  color: #222;
+}
+
+header,
+footer {
+  background: #fff;
+  padding: 1rem;
+  border-bottom: 1px solid #ddd;
+}
+
+footer {
+  border-top: 1px solid #ddd;
+  border-bottom: none;
+}
+
+nav a {
+  margin-right: 1rem;
+  color: #0a66c2;
+  text-decoration: none;
+}
+
+nav a:hover {
+  text-decoration: underline;
+}
+
+.wrap {
+  max-width: 1100px;
+  margin: 1rem auto;
+  padding: 1rem;
+  background: #fff;
+  border-radius: 6px;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+form {
+  display: grid;
+  gap: 0.5rem;
+}
+
+input,
+textarea,
+select,
+button {
+  padding: 0.5rem;
+  border: 1px solid #ccc;
+  border-radius
 
