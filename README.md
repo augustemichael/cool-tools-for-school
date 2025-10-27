@@ -1,11 +1,16 @@
-# Cool Tools for School
+# Cool Tools For School
 
-This project was created for Lesson 2: Building a Webpage Template.  
-It uses basic HTML to structure a simple website and includes a link to a sitemap page.
+This is a simple three-page website project that includes a Home page, an About page, and a Contact page.  
+A sitemap is included for easy navigation structure reference.
 
-## Project Overview
-The Cool Tools for School website provides an example of how to organize study tools and resources using HTML.  
-It shows how to use headings, paragraphs, lists, and links to build a simple webpage layout.
+## Structure
+- index.html — Home page
+- about.html — About page
+- contact.html — Contact page
+- sitemap.html — Sitemap of the site
+
+## Purpose
+The project demonstrates a basic multi-page site layout using HTML and CSS.
 
 ## Built With
 - HTML5 for structure  
