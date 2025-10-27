@@ -16,6 +16,8 @@ Visit the live website hosted on GitHub Pages:
 
 ## Class
 **Michael Auguste**  
--Student Project for Lesson 2: Website Assignment  
--October 2025
--CIST1510: Web Development I 33235
+Student Project for Lesson 2: Website Assignment  
+
+October 2025
+
+CIST1510: Web Development I 33235
